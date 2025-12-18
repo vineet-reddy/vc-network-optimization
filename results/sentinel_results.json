@@ -13,7 +13,7 @@
       129
     ],
     "coverage": 2417.5644873893316,
-    "runtime": 0.14987492561340332
+    "runtime": 0.11575675010681152
   },
   "greedy": {
     "sentinels": [
@@ -29,7 +29,7 @@
       18
     ],
     "coverage": 2181.268027089389,
-    "runtime": 0.030983924865722656
+    "runtime": 0.028918981552124023
   },
   "naive": {
     "sentinels": [
@@ -45,12 +45,12 @@
       5
     ],
     "coverage": 1569.4604424726122,
-    "runtime": 0.003242015838623047
+    "runtime": 0.002440929412841797
   },
   "comparison": {
     "greedy_vs_optimal_pct": 90.22584665134978,
     "naive_vs_optimal_pct": 64.91907250703512,
     "ip_improvement_over_naive_pct": 54.03793698556498,
-    "greedy_speedup_factor": 4.837183354366093
+    "greedy_speedup_factor": 4.002794839028814
   }
 }

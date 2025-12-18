@@ -7,15 +7,15 @@
   "sentinel_problem": {
     "budget_k": 10,
     "ip_coverage": 2417.56,
-    "ip_runtime_sec": 0.1499,
+    "ip_runtime_sec": 0.1158,
     "greedy_coverage": 2181.27,
-    "greedy_runtime_sec": 0.031,
+    "greedy_runtime_sec": 0.0289,
     "naive_coverage": 1569.46,
-    "naive_runtime_sec": 0.0032,
+    "naive_runtime_sec": 0.0024,
     "greedy_vs_optimal_pct": 90.2,
     "naive_vs_optimal_pct": 64.9,
     "ip_improvement_over_naive_pct": 54.0,
-    "greedy_speedup_factor": 4.8
+    "greedy_speedup_factor": 4.0
   },
   "maintenance_problem": {
     "budget_t": 2800,

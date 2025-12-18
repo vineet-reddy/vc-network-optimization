@@ -2,7 +2,7 @@
 """
 update_paper.py
 
-Updates docs/projectproposal.tex with latest results from results/summary.json
+Updates docs/finalreport.tex with latest results from results/summary.json
 """
 
 import json
@@ -12,7 +12,7 @@ import os
 def update_paper():
     # Load results
     summary_path = os.path.join('results', 'summary.json')
-    tex_path = os.path.join('docs', 'projectproposal.tex')
+    tex_path = os.path.join('docs', 'finalreport.tex')
     
     if not os.path.exists(summary_path):
         print(f"Error: {summary_path} not found. Run 'python run_pipeline.py' first.")

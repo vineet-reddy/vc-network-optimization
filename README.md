@@ -18,7 +18,7 @@ The system addresses two core problems:
 
 ## Project Structure
 ```
-240-final-project/
+vc-network-optimization/
 ├── data/
 │   ├── soc-sign-bitcoinalpha.csv  # Bitcoin Alpha Trust Network Dataset
 │   └── people-10000.csv           # Synthetic names & contact info
