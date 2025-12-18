@@ -1,0 +1,1364 @@
+{
+  "total_value": 9710.13035907204,
+  "budget_used": 2800,
+  "selected_nodes": [
+    {
+      "id": 1,
+      "weight": 29,
+      "value": 256.188981524709,
+      "days_dormant": 383,
+      "degree": 511,
+      "talent_score": 1.9045226130653266,
+      "metadata": {
+        "name": "Sara Mcguire",
+        "email": "tsharp@example.net",
+        "phone": "(971)643-6089x9160",
+        "job": "Editor, commissioning"
+      }
+    },
+    {
+      "id": 430,
+      "weight": 18,
+      "value": 62.029478963491144,
+      "days_dormant": 684,
+      "degree": 9,
+      "talent_score": 3.1666666666666665,
+      "metadata": {
+        "name": "Grant Payne",
+        "email": "lopezevan@example.org",
+        "phone": "9185222115",
+        "job": "Writer"
+      }
+    },
+    {
+      "id": 160,
+      "weight": 32,
+      "value": 107.73086902625516,
+      "days_dormant": 680,
+      "degree": 10,
+      "talent_score": 5.222222222222222,
+      "metadata": {
+        "name": "Sarah Huber",
+        "email": "wilkersonlucas@example.net",
+        "phone": "893.355.7289",
+        "job": "Chartered management accountant"
+      }
+    },
+    {
+      "id": 377,
+      "weight": 28,
+      "value": 67.00440870285468,
+      "days_dormant": 441,
+      "degree": 4,
+      "talent_score": 5.5,
+      "metadata": {
+        "name": "Seth Castro",
+        "email": "willie10@example.net",
+        "phone": "331.992.6830",
+        "job": "Homeopath"
+      }
+    },
+    {
+      "id": 20,
+      "weight": 68,
+      "value": 195.69946817125503,
+      "days_dormant": 400,
+      "degree": 66,
+      "talent_score": 4.018867924528302,
+      "metadata": {
+        "name": "Jon Wagner",
+        "email": "meagan99@example.org",
+        "phone": "001-940-671-0693x345",
+        "job": "Engineer, aeronautical"
+      }
+    },
+    {
+      "id": 11,
+      "weight": 50,
+      "value": 129.12531403012562,
+      "days_dormant": 404,
+      "degree": 238,
+      "talent_score": 1.3940886699507389,
+      "metadata": {
+        "name": "Jean Aguilar",
+        "email": "raymond24@example.org",
+        "phone": "(285)029-1604x5466",
+        "job": "Engineer, control and instrumentation"
+      }
+    },
+    {
+      "id": 152,
+      "weight": 28,
+      "value": 76.53997590414538,
+      "days_dormant": 1058,
+      "degree": 34,
+      "talent_score": 1.8846153846153846,
+      "metadata": {
+        "name": "Tom Stuart",
+        "email": "kristy48@example.org",
+        "phone": "001-083-972-3746x5098",
+        "job": "Risk analyst"
+      }
+    },
+    {
+      "id": 2,
+      "weight": 26,
+      "value": 310.9241080961967,
+      "days_dormant": 272,
+      "degree": 239,
+      "talent_score": 3.5853658536585367,
+      "metadata": {
+        "name": "Alisha Hebert",
+        "email": "vincentgarrett@example.net",
+        "phone": "+1-114-355-1841x78347",
+        "job": "Broadcast engineer"
+      }
+    },
+    {
+      "id": 44,
+      "weight": 27,
+      "value": 109.90672972535991,
+      "days_dormant": 403,
+      "degree": 55,
+      "talent_score": 2.4693877551020407,
+      "metadata": {
+        "name": "Denise Cardenas",
+        "email": "sethtrujillo@example.com",
+        "phone": "(361)504-1387x66414",
+        "job": "Customer service manager"
+      }
+    },
+    {
+      "id": 10,
+      "weight": 59,
+      "value": 141.6125916801552,
+      "days_dormant": 400,
+      "degree": 181,
+      "talent_score": 1.7560975609756098,
+      "metadata": {
+        "name": "Pedro Cordova",
+        "email": "leslie08@example.com",
+        "phone": "(389)824-3204x8287",
+        "job": "Phytotherapist"
+      }
+    },
+    {
+      "id": 17,
+      "weight": 39,
+      "value": 147.8637219957074,
+      "days_dormant": 900,
+      "degree": 117,
+      "talent_score": 2.009259259259259,
+      "metadata": {
+        "name": "Ernest Maynard",
+        "email": "tommywoodard@example.com",
+        "phone": "355-863-2311x6315",
+        "job": "Accountant, chartered certified"
+      }
+    },
+    {
+      "id": 38,
+      "weight": 23,
+      "value": 143.66613934863904,
+      "days_dormant": 605,
+      "degree": 81,
+      "talent_score": 2.4915254237288136,
+      "metadata": {
+        "name": "Terrence Tucker",
+        "email": "rmcdaniel@example.com",
+        "phone": "+1-248-750-1154",
+        "job": "Retail banker"
+      }
+    },
+    {
+      "id": 71,
+      "weight": 43,
+      "value": 131.09693750458382,
+      "days_dormant": 1082,
+      "degree": 22,
+      "talent_score": 4.0,
+      "metadata": {
+        "name": "Stephanie Phillips",
+        "email": "urobinson@example.net",
+        "phone": "(131)005-1695x59600",
+        "job": "Education officer, community"
+      }
+    },
+    {
+      "id": 123,
+      "weight": 19,
+      "value": 70.78330597760181,
+      "days_dormant": 541,
+      "degree": 37,
+      "talent_score": 1.8484848484848484,
+      "metadata": {
+        "name": "Jody Acevedo",
+        "email": "mcdowellpatrick@example.org",
+        "phone": "480.888.2872",
+        "job": "Furniture conservator/restorer"
+      }
+    },
+    {
+      "id": 9,
+      "weight": 32,
+      "value": 197.11458890297712,
+      "days_dormant": 599,
+      "degree": 163,
+      "talent_score": 2.4135338345864663,
+      "metadata": {
+        "name": "Emma Robinson",
+        "email": "charleshiggins@example.org",
+        "phone": "166-234-6882x7457",
+        "job": "Haematologist"
+      }
+    },
+    {
+      "id": 4,
+      "weight": 80,
+      "value": 284.8986102010817,
+      "days_dormant": 699,
+      "degree": 221,
+      "talent_score": 2.925373134328358,
+      "metadata": {
+        "name": "Kristine Mccann",
+        "email": "lindsay55@example.com",
+        "phone": "+1-607-333-9911x59088",
+        "job": "Multimedia specialist"
+      }
+    },
+    {
+      "id": 250,
+      "weight": 21,
+      "value": 50.84522404718747,
+      "days_dormant": 386,
+      "degree": 16,
+      "talent_score": 2.1333333333333333,
+      "metadata": {
+        "name": "Jill Cook",
+        "email": "keithconway@example.net",
+        "phone": "030.878.9792",
+        "job": "Education officer, environmental"
+      }
+    },
+    {
+      "id": 174,
+      "weight": 25,
+      "value": 59.355365156430956,
+      "days_dormant": 541,
+      "degree": 36,
+      "talent_score": 1.5714285714285714,
+      "metadata": {
+        "name": "Theresa Austin",
+        "email": "walexander@example.org",
+        "phone": "+1-435-615-6643x41944",
+        "job": "Solicitor, Scotland"
+      }
+    },
+    {
+      "id": 68,
+      "weight": 43,
+      "value": 109.67034474901517,
+      "days_dormant": 469,
+      "degree": 45,
+      "talent_score": 2.657142857142857,
+      "metadata": {
+        "name": "Carl Lucero",
+        "email": "isabellasantos@example.net",
+        "phone": "8292649018",
+        "job": "Plant breeder/geneticist"
+      }
+    },
+    {
+      "id": 116,
+      "weight": 23,
+      "value": 63.50330412946704,
+      "days_dormant": 660,
+      "degree": 50,
+      "talent_score": 1.3829787234042554,
+      "metadata": {
+        "name": "Arthur Gross",
+        "email": "sheri54@example.com",
+        "phone": "803-839-7174",
+        "job": "International aid/development worker"
+      }
+    },
+    {
+      "id": 276,
+      "weight": 21,
+      "value": 77.57662764295878,
+      "days_dormant": 935,
+      "degree": 7,
+      "talent_score": 4.285714285714286,
+      "metadata": {
+        "name": "Darrell Norris",
+        "email": "bkaiser@example.net",
+        "phone": "855.136.3116x0429",
+        "job": "Corporate treasurer"
+      }
+    },
+    {
+      "id": 90,
+      "weight": 21,
+      "value": 74.67985089179828,
+      "days_dormant": 1052,
+      "degree": 56,
+      "talent_score": 1.4339622641509433,
+      "metadata": {
+        "name": "Dawn Gibson",
+        "email": "lkidd@example.org",
+        "phone": "740-688-0252x09426",
+        "job": "Chiropractor"
+      }
+    },
+    {
+      "id": 231,
+      "weight": 25,
+      "value": 65.00040602028061,
+      "days_dormant": 1642,
+      "degree": 15,
+      "talent_score": 2.2666666666666666,
+      "metadata": {
+        "name": "Evan Welch",
+        "email": "vasquezderrick@example.org",
+        "phone": "+1-784-070-1154x744",
+        "job": "Applications developer"
+      }
+    },
+    {
+      "id": 76,
+      "weight": 23,
+      "value": 113.66253415900188,
+      "days_dormant": 1171,
+      "degree": 33,
+      "talent_score": 2.8,
+      "metadata": {
+        "name": "Chelsea Hester",
+        "email": "maddentricia@example.com",
+        "phone": "(094)992-1771",
+        "job": "Equities trader"
+      }
+    },
+    {
+      "id": 300,
+      "weight": 20,
+      "value": 67.55470903816764,
+      "days_dormant": 1564,
+      "degree": 14,
+      "talent_score": 2.4545454545454546,
+      "metadata": {
+        "name": "Sue Parrish",
+        "email": "wigginsalicia@example.com",
+        "phone": "(762)661-6527x2462",
+        "job": "Doctor, hospital"
+      }
+    },
+    {
+      "id": 159,
+      "weight": 34,
+      "value": 82.21057958888875,
+      "days_dormant": 1206,
+      "degree": 35,
+      "talent_score": 1.9583333333333333,
+      "metadata": {
+        "name": "Reginald Nixon",
+        "email": "qsandoval@example.org",
+        "phone": "114.464.6524x92878",
+        "job": "Education officer, community"
+      }
+    },
+    {
+      "id": 66,
+      "weight": 45,
+      "value": 106.3642823806911,
+      "days_dormant": 1103,
+      "degree": 47,
+      "talent_score": 2.2142857142857144,
+      "metadata": {
+        "name": "Lorraine Castaneda",
+        "email": "btrujillo@example.org",
+        "phone": "150-528-7831x7206",
+        "job": "Lobbyist"
+      }
+    },
+    {
+      "id": 60,
+      "weight": 35,
+      "value": 126.65274546334649,
+      "days_dormant": 599,
+      "degree": 32,
+      "talent_score": 3.5,
+      "metadata": {
+        "name": "Katie Wells",
+        "email": "tescobar@example.org",
+        "phone": "(840)054-8816x5656",
+        "job": "Fine artist"
+      }
+    },
+    {
+      "id": 353,
+      "weight": 18,
+      "value": 44.94483769862569,
+      "days_dormant": 1190,
+      "degree": 22,
+      "talent_score": 1.3529411764705883,
+      "metadata": {
+        "name": "Dustin Holland",
+        "email": "stanley10@example.org",
+        "phone": "(311)207-1214x845",
+        "job": "Radiographer, diagnostic"
+      }
+    },
+    {
+      "id": 51,
+      "weight": 37,
+      "value": 98.68076320087624,
+      "days_dormant": 714,
+      "degree": 85,
+      "talent_score": 1.6285714285714286,
+      "metadata": {
+        "name": "Vanessa Huynh",
+        "email": "reginaldhuber@example.com",
+        "phone": "+1-162-385-4717x6173",
+        "job": "Metallurgist"
+      }
+    },
+    {
+      "id": 54,
+      "weight": 49,
+      "value": 126.59755266274722,
+      "days_dormant": 525,
+      "degree": 47,
+      "talent_score": 2.9473684210526314,
+      "metadata": {
+        "name": "Jill Shannon",
+        "email": "avilahector@example.com",
+        "phone": "986-816-4078x799",
+        "job": "Archaeologist"
+      }
+    },
+    {
+      "id": 47,
+      "weight": 28,
+      "value": 105.93220898346725,
+      "days_dormant": 242,
+      "degree": 50,
+      "talent_score": 2.727272727272727,
+      "metadata": {
+        "name": "Terry Hanna",
+        "email": "juan72@example.net",
+        "phone": "540.583.5150x603",
+        "job": "Social research officer, government"
+      }
+    },
+    {
+      "id": 23,
+      "weight": 63,
+      "value": 199.65360895476283,
+      "days_dormant": 1627,
+      "degree": 74,
+      "talent_score": 3.1384615384615384,
+      "metadata": {
+        "name": "Jermaine Liu",
+        "email": "tristanpatterson@example.net",
+        "phone": "001-887-131-9735x6172",
+        "job": "Health promotion specialist"
+      }
+    },
+    {
+      "id": 74,
+      "weight": 19,
+      "value": 111.78016486825241,
+      "days_dormant": 524,
+      "degree": 26,
+      "talent_score": 3.5,
+      "metadata": {
+        "name": "Johnathan Henderson",
+        "email": "haasjade@example.com",
+        "phone": "605-087-9260x2141",
+        "job": "Special educational needs teacher"
+      }
+    },
+    {
+      "id": 8,
+      "weight": 40,
+      "value": 236.22771834488435,
+      "days_dormant": 242,
+      "degree": 279,
+      "talent_score": 2.574626865671642,
+      "metadata": {
+        "name": "Nicholas Branch",
+        "email": "greerjimmy@example.net",
+        "phone": "+1-667-666-5867",
+        "job": "Fisheries officer"
+      }
+    },
+    {
+      "id": 272,
+      "weight": 18,
+      "value": 45.29328613543669,
+      "days_dormant": 1013,
+      "degree": 55,
+      "talent_score": 0.8823529411764706,
+      "metadata": {
+        "name": "Eugene Newman",
+        "email": "rose48@example.net",
+        "phone": "2789533027",
+        "job": "Insurance risk surveyor"
+      }
+    },
+    {
+      "id": 24,
+      "weight": 23,
+      "value": 146.0148671287652,
+      "days_dormant": 417,
+      "degree": 113,
+      "talent_score": 2.2758620689655173,
+      "metadata": {
+        "name": "Cindy Haynes",
+        "email": "sonyamoyer@example.net",
+        "phone": "+1-166-565-3614x575",
+        "job": "Scientist, physiological"
+      }
+    },
+    {
+      "id": 7,
+      "weight": 50,
+      "value": 173.094011604133,
+      "days_dormant": 388,
+      "degree": 234,
+      "talent_score": 1.8974358974358974,
+      "metadata": {
+        "name": "Collin Allison",
+        "email": "yvaughn@example.net",
+        "phone": "(314)591-7413",
+        "job": "Administrator"
+      }
+    },
+    {
+      "id": 189,
+      "weight": 18,
+      "value": 66.05234538117952,
+      "days_dormant": 628,
+      "degree": 16,
+      "talent_score": 2.5625,
+      "metadata": {
+        "name": "Audrey Kerr",
+        "email": "robersonjonathan@example.com",
+        "phone": "(272)590-6617",
+        "job": "Accounting technician"
+      }
+    },
+    {
+      "id": 45,
+      "weight": 28,
+      "value": 116.4605181161427,
+      "days_dormant": 1000,
+      "degree": 82,
+      "talent_score": 1.8615384615384616,
+      "metadata": {
+        "name": "Ross Wiley",
+        "email": "ymathews@example.net",
+        "phone": "(633)617-1882x60906",
+        "job": "Research officer, government"
+      }
+    },
+    {
+      "id": 236,
+      "weight": 20,
+      "value": 62.41718893903244,
+      "days_dormant": 1325,
+      "degree": 20,
+      "talent_score": 1.9411764705882353,
+      "metadata": {
+        "name": "Anna Anderson",
+        "email": "mitchellsandoval@example.net",
+        "phone": "049-104-9267",
+        "job": "Civil Service administrator"
+      }
+    },
+    {
+      "id": 106,
+      "weight": 15,
+      "value": 70.78972264961729,
+      "days_dormant": 987,
+      "degree": 51,
+      "talent_score": 1.4375,
+      "metadata": {
+        "name": "Yvonne Greene",
+        "email": "williamsroberta@example.org",
+        "phone": "(474)251-7880",
+        "job": "Pharmacist, community"
+      }
+    },
+    {
+      "id": 173,
+      "weight": 23,
+      "value": 55.8512798051347,
+      "days_dormant": 398,
+      "degree": 46,
+      "talent_score": 1.375,
+      "metadata": {
+        "name": "Dominique Whitehead",
+        "email": "waynewong@example.com",
+        "phone": "001-429-498-8998x916",
+        "job": "Engineer, chemical"
+      }
+    },
+    {
+      "id": 5,
+      "weight": 94,
+      "value": 222.75363112867623,
+      "days_dormant": 423,
+      "degree": 190,
+      "talent_score": 2.671232876712329,
+      "metadata": {
+        "name": "Bobby Pittman",
+        "email": "blevinsmorgan@example.com",
+        "phone": "3739847538",
+        "job": "Planning and development surveyor"
+      }
+    },
+    {
+      "id": 170,
+      "weight": 30,
+      "value": 70.29874222678947,
+      "days_dormant": 560,
+      "degree": 23,
+      "talent_score": 2.3157894736842106,
+      "metadata": {
+        "name": "Raven Marks",
+        "email": "vpineda@example.net",
+        "phone": "001-382-487-7202x231",
+        "job": "Engineer, aeronautical"
+      }
+    },
+    {
+      "id": 70,
+      "weight": 31,
+      "value": 84.62771715747988,
+      "days_dormant": 592,
+      "degree": 59,
+      "talent_score": 1.7254901960784315,
+      "metadata": {
+        "name": "Andres Barajas",
+        "email": "foneal@example.com",
+        "phone": "001-821-485-1296x616",
+        "job": "Programmer, systems"
+      }
+    },
+    {
+      "id": 449,
+      "weight": 15,
+      "value": 46.34069182657762,
+      "days_dormant": 1688,
+      "degree": 12,
+      "talent_score": 1.8,
+      "metadata": {
+        "name": "Jacob Johns",
+        "email": "breannaharper@example.org",
+        "phone": "+1-773-654-7169x66105",
+        "job": "Charity fundraiser"
+      }
+    },
+    {
+      "id": 263,
+      "weight": 33,
+      "value": 76.41735615888436,
+      "days_dormant": 1689,
+      "degree": 11,
+      "talent_score": 3.1,
+      "metadata": {
+        "name": "Theresa Irwin",
+        "email": "sheaadrian@example.net",
+        "phone": "1732832512",
+        "job": "Forensic scientist"
+      }
+    },
+    {
+      "id": 562,
+      "weight": 18,
+      "value": 44.2831234001371,
+      "days_dormant": 1303,
+      "degree": 7,
+      "talent_score": 2.3333333333333335,
+      "metadata": {
+        "name": "Tricia Patrick",
+        "email": "vchang@example.org",
+        "phone": "701-425-6763",
+        "job": "Town planner"
+      }
+    },
+    {
+      "id": 14,
+      "weight": 46,
+      "value": 180.57992055404154,
+      "days_dormant": 887,
+      "degree": 104,
+      "talent_score": 2.6082474226804124,
+      "metadata": {
+        "name": "Samantha Moon",
+        "email": "wesleymullins@example.net",
+        "phone": "7788378816",
+        "job": "Intelligence analyst"
+      }
+    },
+    {
+      "id": 3,
+      "weight": 39,
+      "value": 250.51009549521592,
+      "days_dormant": 575,
+      "degree": 263,
+      "talent_score": 2.4302788844621515,
+      "metadata": {
+        "name": "Gwendolyn Sheppard",
+        "email": "mercadojonathan@example.com",
+        "phone": "9017807728",
+        "job": "Industrial buyer"
+      }
+    },
+    {
+      "id": 6,
+      "weight": 74,
+      "value": 208.97209621674344,
+      "days_dormant": 385,
+      "degree": 158,
+      "talent_score": 2.79136690647482,
+      "metadata": {
+        "name": "Calvin Ramsey",
+        "email": "loretta85@example.com",
+        "phone": "001-314-829-5014x1792",
+        "job": "Therapeutic radiographer"
+      }
+    },
+    {
+      "id": 26,
+      "weight": 30,
+      "value": 108.40553058407411,
+      "days_dormant": 409,
+      "degree": 166,
+      "talent_score": 1.3985507246376812,
+      "metadata": {
+        "name": "Julie Delacruz",
+        "email": "jillian34@example.net",
+        "phone": "903.237.1120x705",
+        "job": "Television production assistant"
+      }
+    },
+    {
+      "id": 100,
+      "weight": 20,
+      "value": 93.28514924004708,
+      "days_dormant": 867,
+      "degree": 33,
+      "talent_score": 2.4,
+      "metadata": {
+        "name": "Christie Kane",
+        "email": "jill08@example.org",
+        "phone": "385.794.7337x2956",
+        "job": "Theatre manager"
+      }
+    },
+    {
+      "id": 227,
+      "weight": 17,
+      "value": 71.6929816416014,
+      "days_dormant": 795,
+      "degree": 20,
+      "talent_score": 2.4,
+      "metadata": {
+        "name": "Sherry Strickland",
+        "email": "qheath@example.net",
+        "phone": "001-091-624-5951x05512",
+        "job": "Location manager"
+      }
+    },
+    {
+      "id": 33,
+      "weight": 36,
+      "value": 100.82496272937794,
+      "days_dormant": 420,
+      "degree": 139,
+      "talent_score": 1.4152542372881356,
+      "metadata": {
+        "name": "Ruth Bolton",
+        "email": "newtonbridget@example.net",
+        "phone": "625-325-5178",
+        "job": "Air cabin crew"
+      }
+    },
+    {
+      "id": 131,
+      "weight": 18,
+      "value": 71.32087203051681,
+      "days_dormant": 790,
+      "degree": 36,
+      "talent_score": 1.78125,
+      "metadata": {
+        "name": "Kevin Vance",
+        "email": "katelynharper@example.net",
+        "phone": "+1-069-229-0776",
+        "job": "Records manager"
+      }
+    },
+    {
+      "id": 626,
+      "weight": 17,
+      "value": 41.91779324661835,
+      "days_dormant": 1352,
+      "degree": 5,
+      "talent_score": 2.6,
+      "metadata": {
+        "name": "Brett Hinton",
+        "email": "connietapia@example.org",
+        "phone": "537.636.1257",
+        "job": "Chief of Staff"
+      }
+    },
+    {
+      "id": 82,
+      "weight": 30,
+      "value": 74.74595386377466,
+      "days_dormant": 394,
+      "degree": 45,
+      "talent_score": 1.8636363636363635,
+      "metadata": {
+        "name": "Donna Donaldson",
+        "email": "franklintheresa@example.net",
+        "phone": "(045)206-0472x11401",
+        "job": "Charity officer"
+      }
+    },
+    {
+      "id": 728,
+      "weight": 15,
+      "value": 33.72933318193255,
+      "days_dormant": 949,
+      "degree": 5,
+      "talent_score": 2.2,
+      "metadata": {
+        "name": "Christie Banks",
+        "email": "riceronald@example.org",
+        "phone": "+1-173-782-3167x99812",
+        "job": "Personnel officer"
+      }
+    },
+    {
+      "id": 497,
+      "weight": 17,
+      "value": 39.38157495577467,
+      "days_dormant": 458,
+      "degree": 7,
+      "talent_score": 2.4285714285714284,
+      "metadata": {
+        "name": "April Frost",
+        "email": "curtisroy@example.org",
+        "phone": "+1-223-134-7358x91444",
+        "job": "Therapist, drama"
+      }
+    },
+    {
+      "id": 253,
+      "weight": 20,
+      "value": 48.81935852621488,
+      "days_dormant": 652,
+      "degree": 20,
+      "talent_score": 1.6842105263157894,
+      "metadata": {
+        "name": "Madeline Wilkinson",
+        "email": "clarence52@example.com",
+        "phone": "(649)453-8599",
+        "job": "Pharmacist, hospital"
+      }
+    },
+    {
+      "id": 500,
+      "weight": 18,
+      "value": 45.53950563258563,
+      "days_dormant": 1145,
+      "degree": 8,
+      "talent_score": 2.2857142857142856,
+      "metadata": {
+        "name": "Michele Nielsen",
+        "email": "hooverjared@example.org",
+        "phone": "909-391-8938",
+        "job": "Special effects artist"
+      }
+    },
+    {
+      "id": 513,
+      "weight": 19,
+      "value": 54.09202316503879,
+      "days_dormant": 1301,
+      "degree": 8,
+      "talent_score": 2.6666666666666665,
+      "metadata": {
+        "name": "Justin Burton",
+        "email": "tommy71@example.net",
+        "phone": "9698768082",
+        "job": "Medical sales representative"
+      }
+    },
+    {
+      "id": 132,
+      "weight": 18,
+      "value": 79.69664680230534,
+      "days_dormant": 1012,
+      "degree": 32,
+      "talent_score": 2.0357142857142856,
+      "metadata": {
+        "name": "Paul Combs",
+        "email": "chasestuart@example.com",
+        "phone": "001-556-291-6791x1647",
+        "job": "Tree surgeon"
+      }
+    },
+    {
+      "id": 977,
+      "weight": 22,
+      "value": 55.451774444795625,
+      "days_dormant": 1023,
+      "degree": 1,
+      "talent_score": 8.0,
+      "metadata": {
+        "name": "Laurie Long",
+        "email": "krystalprince@example.com",
+        "phone": "492.143.5763x97973",
+        "job": "Armed forces training and education officer"
+      }
+    },
+    {
+      "id": 226,
+      "weight": 16,
+      "value": 47.78449466361526,
+      "days_dormant": 1186,
+      "degree": 36,
+      "talent_score": 1.125,
+      "metadata": {
+        "name": "Karina Fitzpatrick",
+        "email": "barryroberson@example.com",
+        "phone": "+1-882-417-7107x47359",
+        "job": "Hydrographic surveyor"
+      }
+    },
+    {
+      "id": 127,
+      "weight": 30,
+      "value": 77.4275681844791,
+      "days_dormant": 473,
+      "degree": 24,
+      "talent_score": 2.5652173913043477,
+      "metadata": {
+        "name": "Justin Elliott",
+        "email": "brady09@example.com",
+        "phone": "275.784.4598x47289",
+        "job": "Paramedic"
+      }
+    },
+    {
+      "id": 180,
+      "weight": 28,
+      "value": 76.74548675106716,
+      "days_dormant": 189,
+      "degree": 14,
+      "talent_score": 3.909090909090909,
+      "metadata": {
+        "name": "Cindy Shea",
+        "email": "sstephens@example.com",
+        "phone": "+1-998-549-9473x2223",
+        "job": "Development worker, international aid"
+      }
+    },
+    {
+      "id": 55,
+      "weight": 31,
+      "value": 129.75249690083746,
+      "days_dormant": 524,
+      "degree": 41,
+      "talent_score": 3.235294117647059,
+      "metadata": {
+        "name": "Bradley Hull",
+        "email": "paigedoyle@example.net",
+        "phone": "(964)775-9750x8072",
+        "job": "Ranger/warden"
+      }
+    },
+    {
+      "id": 243,
+      "weight": 23,
+      "value": 117.24256818264686,
+      "days_dormant": 823,
+      "degree": 7,
+      "talent_score": 6.6,
+      "metadata": {
+        "name": "Duane Vaughn",
+        "email": "rita62@example.org",
+        "phone": "+1-811-728-7870x082",
+        "job": "Orthoptist"
+      }
+    },
+    {
+      "id": 220,
+      "weight": 26,
+      "value": 69.6520830678203,
+      "days_dormant": 525,
+      "degree": 13,
+      "talent_score": 3.0833333333333335,
+      "metadata": {
+        "name": "Charlene Welch",
+        "email": "gonzaleztara@example.org",
+        "phone": "940-668-0181x87479",
+        "job": "Chief Marketing Officer"
+      }
+    },
+    {
+      "id": 254,
+      "weight": 22,
+      "value": 92.91935251488383,
+      "days_dormant": 1683,
+      "degree": 22,
+      "talent_score": 2.6666666666666665,
+      "metadata": {
+        "name": "Eddie Krause",
+        "email": "fhanson@example.org",
+        "phone": "(921)997-3116x009",
+        "job": "Science writer"
+      }
+    },
+    {
+      "id": 579,
+      "weight": 15,
+      "value": 46.53841293364253,
+      "days_dormant": 1690,
+      "degree": 5,
+      "talent_score": 2.8,
+      "metadata": {
+        "name": "Gavin Arellano",
+        "email": "evansalexis@example.net",
+        "phone": "(855)598-3149x82476",
+        "job": "Further education lecturer"
+      }
+    },
+    {
+      "id": 28,
+      "weight": 56,
+      "value": 153.10806426758646,
+      "days_dormant": 628,
+      "degree": 55,
+      "talent_score": 3.2037037037037037,
+      "metadata": {
+        "name": "Maureen Vasquez",
+        "email": "chogan@example.com",
+        "phone": "645.665.5931",
+        "job": "Journalist, magazine"
+      }
+    },
+    {
+      "id": 210,
+      "weight": 30,
+      "value": 80.88337321058631,
+      "days_dormant": 1592,
+      "degree": 12,
+      "talent_score": 3.1666666666666665,
+      "metadata": {
+        "name": "Ernest Farley",
+        "email": "marcuskerr@example.com",
+        "phone": "431-705-3374",
+        "job": "Dentist"
+      }
+    },
+    {
+      "id": 342,
+      "weight": 17,
+      "value": 53.809867218869975,
+      "days_dormant": 833,
+      "degree": 9,
+      "talent_score": 2.6666666666666665,
+      "metadata": {
+        "name": "Brent Everett",
+        "email": "ccalderon@example.net",
+        "phone": "+1-527-941-7382",
+        "job": "Actuary"
+      }
+    },
+    {
+      "id": 129,
+      "weight": 52,
+      "value": 233.94359494615733,
+      "days_dormant": 1178,
+      "degree": 94,
+      "talent_score": 3.411764705882353,
+      "metadata": {
+        "name": "Scott Dawson",
+        "email": "ynelson@example.com",
+        "phone": "527-726-5973x662",
+        "job": "Engineering geologist"
+      }
+    },
+    {
+      "id": 1422,
+      "weight": 17,
+      "value": 42.13743270878938,
+      "days_dormant": 1717,
+      "degree": 2,
+      "talent_score": 4.0,
+      "metadata": {
+        "name": "Jaclyn Sullivan",
+        "email": "gweiss@example.com",
+        "phone": "224-403-2487",
+        "job": "Therapeutic radiographer"
+      }
+    },
+    {
+      "id": 240,
+      "weight": 19,
+      "value": 81.53376368439726,
+      "days_dormant": 1655,
+      "degree": 9,
+      "talent_score": 3.6666666666666665,
+      "metadata": {
+        "name": "Leroy Soto",
+        "email": "darrylmedina@example.net",
+        "phone": "408-639-1290",
+        "job": "Psychologist, forensic"
+      }
+    },
+    {
+      "id": 662,
+      "weight": 32,
+      "value": 77.41745421723662,
+      "days_dormant": 1718,
+      "degree": 3,
+      "talent_score": 6.0,
+      "metadata": {
+        "name": "Ronald Avery",
+        "email": "stefanie21@example.net",
+        "phone": "294-805-2793x472",
+        "job": "Insurance underwriter"
+      }
+    },
+    {
+      "id": 169,
+      "weight": 27,
+      "value": 77.78321845719553,
+      "days_dormant": 1676,
+      "degree": 25,
+      "talent_score": 2.0952380952380953,
+      "metadata": {
+        "name": "Patricia Sullivan",
+        "email": "bowmandominique@example.com",
+        "phone": "001-020-070-3547x551",
+        "job": "Pharmacologist"
+      }
+    },
+    {
+      "id": 633,
+      "weight": 25,
+      "value": 61.59058652696995,
+      "days_dormant": 1219,
+      "degree": 4,
+      "talent_score": 4.333333333333333,
+      "metadata": {
+        "name": "Selena Brooks",
+        "email": "alisonjohnson@example.net",
+        "phone": "+1-512-563-6311x0977",
+        "job": "Mining engineer"
+      }
+    },
+    {
+      "id": 385,
+      "weight": 17,
+      "value": 54.218269778485094,
+      "days_dormant": 1483,
+      "degree": 8,
+      "talent_score": 2.625,
+      "metadata": {
+        "name": "Donna Simmons",
+        "email": "christian15@example.org",
+        "phone": "001-139-429-4538x77788",
+        "job": "Aid worker"
+      }
+    },
+    {
+      "id": 339,
+      "weight": 18,
+      "value": 51.477340776099595,
+      "days_dormant": 1685,
+      "degree": 12,
+      "talent_score": 2.0,
+      "metadata": {
+        "name": "Terrence Durham",
+        "email": "kelly02@example.com",
+        "phone": "472-248-1725",
+        "job": "Designer, television/film set"
+      }
+    },
+    {
+      "id": 581,
+      "weight": 17,
+      "value": 59.78386642049677,
+      "days_dormant": 1629,
+      "degree": 3,
+      "talent_score": 4.666666666666667,
+      "metadata": {
+        "name": "Brandy Cortez",
+        "email": "ameyer@example.com",
+        "phone": "+1-815-954-0893x4273",
+        "job": "Scientist, research (maths)"
+      }
+    },
+    {
+      "id": 388,
+      "weight": 15,
+      "value": 94.80709778175442,
+      "days_dormant": 872,
+      "degree": 4,
+      "talent_score": 7.0,
+      "metadata": {
+        "name": "Daisy Keller",
+        "email": "hware@example.net",
+        "phone": "+1-394-509-9120x51921",
+        "job": "Patent examiner"
+      }
+    },
+    {
+      "id": 584,
+      "weight": 19,
+      "value": 51.7096316495973,
+      "days_dormant": 1614,
+      "degree": 4,
+      "talent_score": 3.5,
+      "metadata": {
+        "name": "Carrie Good",
+        "email": "coffeysergio@example.net",
+        "phone": "203-062-5153x017",
+        "job": "Exercise physiologist"
+      }
+    },
+    {
+      "id": 828,
+      "weight": 22,
+      "value": 117.29336448296375,
+      "days_dormant": 872,
+      "degree": 3,
+      "talent_score": 10.0,
+      "metadata": {
+        "name": "Connor Barrera",
+        "email": "rebecca63@example.net",
+        "phone": "794.466.9225x6661",
+        "job": "Financial controller"
+      }
+    },
+    {
+      "id": 414,
+      "weight": 23,
+      "value": 95.7696310658495,
+      "days_dormant": 872,
+      "degree": 2,
+      "talent_score": 10.0,
+      "metadata": {
+        "name": "Kathy Mcintyre",
+        "email": "hmoreno@example.com",
+        "phone": "(147)461-9934",
+        "job": "Engineer, agricultural"
+      }
+    },
+    {
+      "id": 782,
+      "weight": 15,
+      "value": 74.36027816351849,
+      "days_dormant": 1695,
+      "degree": 1,
+      "talent_score": 10.0,
+      "metadata": {
+        "name": "Julian Ho",
+        "email": "ohines@example.org",
+        "phone": "+1-285-317-0401",
+        "job": "Designer, interior/spatial"
+      }
+    },
+    {
+      "id": 776,
+      "weight": 30,
+      "value": 74.48333860897476,
+      "days_dormant": 1716,
+      "degree": 1,
+      "talent_score": 10.0,
+      "metadata": {
+        "name": "Arthur Vasquez",
+        "email": "banksriley@example.net",
+        "phone": "(820)733-2085",
+        "job": "Teacher, English as a foreign language"
+      }
+    },
+    {
+      "id": 834,
+      "weight": 20,
+      "value": 62.383246250395075,
+      "days_dormant": 511,
+      "degree": 1,
+      "talent_score": 10.0,
+      "metadata": {
+        "name": "Judith Davies",
+        "email": "etaylor@example.org",
+        "phone": "001-791-964-4701x0564",
+        "job": "Midwife"
+      }
+    },
+    {
+      "id": 948,
+      "weight": 15,
+      "value": 58.365880581994254,
+      "days_dormant": 1473,
+      "degree": 1,
+      "talent_score": 8.0,
+      "metadata": {
+        "name": "Kristopher Woods",
+        "email": "shelbyboyd@example.com",
+        "phone": "486-851-0205",
+        "job": "Investment banker, corporate"
+      }
+    },
+    {
+      "id": 790,
+      "weight": 16,
+      "value": 74.11556287811163,
+      "days_dormant": 1654,
+      "degree": 1,
+      "talent_score": 10.0,
+      "metadata": {
+        "name": "Alexa Kemp",
+        "email": "kiara07@example.com",
+        "phone": "2143109758",
+        "job": "Designer, furniture"
+      }
+    },
+    {
+      "id": 978,
+      "weight": 17,
+      "value": 54.92712859906751,
+      "days_dormant": 958,
+      "degree": 1,
+      "talent_score": 8.0,
+      "metadata": {
+        "name": "Desiree Fields",
+        "email": "vellis@example.net",
+        "phone": "901-349-3523",
+        "job": "Marketing executive"
+      }
+    },
+    {
+      "id": 795,
+      "weight": 27,
+      "value": 73.42779189331846,
+      "days_dormant": 1544,
+      "degree": 1,
+      "talent_score": 10.0,
+      "metadata": {
+        "name": "Rickey Everett",
+        "email": "davearellano@example.net",
+        "phone": "(244)896-8029",
+        "job": "Economist"
+      }
+    }
+  ]
+}

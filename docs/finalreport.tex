@@ -1,0 +1,224 @@
+\documentclass[11pt, letterpaper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{parskip}
+
+% Geometry settings
+\geometry{margin=1in}
+
+% Reduce spacing around title
+\usepackage{titling}
+\setlength{\droptitle}{-2em}
+\pretitle{\begin{center}\large\bfseries}
+\posttitle{\par\end{center}\vspace{0.5em}}
+\preauthor{\begin{center}}
+\postauthor{\par\end{center}\vspace{0.5em}}
+\predate{}
+\postdate{}
+
+% Section spacing
+\titlespacing*{\section}{0pt}{0.8em}{0.4em}
+\titlespacing*{\subsection}{0pt}{0.6em}{0.25em}
+\titleformat{\section}{\normalfont\bfseries}{\thesection.}{0.5em}{}
+\titleformat*{\subsection}{\normalfont\bfseries\itshape}
+
+% Compact lists
+\setlist{nosep, leftmargin=1.5em, topsep=2pt, partopsep=0pt, itemsep=1pt}
+
+% Moderate spacing around equations
+\AtBeginDocument{
+  \setlength{\abovedisplayskip}{6pt}
+  \setlength{\belowdisplayskip}{6pt}
+  \setlength{\abovedisplayshortskip}{3pt}
+  \setlength{\belowdisplayshortskip}{3pt}
+}
+
+% Paragraph spacing
+\setlength{\parskip}{0.4em}
+\setlength{\parindent}{0pt}
+
+\title{Network Optimization Models for Relationship Building in Venture Capital}
+\author{Vineet Reddy, Avya Kalra, Era Ahsan}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-0.5em}
+
+\section*{Abstract}
+
+Sequoia Capital has publicly discussed their proprietary data science system that functions as an intelligence engine for the startup ecosystem. A core component is a ``Talent Map'' that acts as a ranking algorithm for people, built by systematically asking high-performing operators to identify the most talented peers in their networks. The result is a web of endorsements connecting thousands of individuals across the technology industry.
+
+This talent map serves two strategic purposes. First, it allows the firm to assess startup team quality with high precision: investors can query the system to determine the percentile ranking of a company's engineering team. Second, the system supports tracking talent before companies are formed, through the seed stage, and for late-stage investment.
+
+As these talent maps grow, two optimization challenges emerge. First, the conventional networking strategy of reaching out to prominent individuals leads to significant redundancy: the same clusters are discovered repeatedly. Second, relationships require active maintenance to remain valuable. This project applies IEOR 240 optimization techniques to address both challenges, implementing an exact integer programming solution using Gurobi and a greedy approximation algorithm.
+
+\section{The ``Sentinel'' Problem (Avoiding Redundancy)}
+
+The standard approach to network expansion is connecting with high-profile individuals and reaching out to people they recommend. However, this produces highly redundant networks: prominent contacts tend to know overlapping sets of people.
+
+We hypothesize that there exist ``underappreciated'' nodes that provide access to high-density talent pools, and ``Sentinels'' who are well-connected to these nodes and can unlock otherwise unreachable talent. Our goal is to identify the optimal set of Sentinels such that total unique talent discovered is maximized.
+
+\subsection*{IEOR 240 Concept}
+We model this as a Maximum Coverage Problem. The objective is to select $k$ Sentinels such that the union of talent they collectively know is maximized. If Sentinel A and B both know the same 50 engineers, selecting both provides no additional coverage beyond selecting one.
+
+\subsection*{Our Formulation (Integer Program)}
+
+\noindent\textbf{Sets:}
+\begin{itemize}
+    \item $I$: Set of potential people to reach out to (Sentinels)
+    \item $J$: Set of ``Talent'' (the valuable connections to discover)
+\end{itemize}
+
+\noindent\textbf{Parameters:}
+\begin{itemize}
+    \item $a_{ij} = 1$ if Sentinel $i$ knows Talent $j$, $0$ otherwise
+    \item $w_j$: Quality score for Talent $j$ (mean trust rating received)
+    \item $K$: Budget constraint (maximum number of Sentinels to contact)
+\end{itemize}
+
+\noindent\textbf{Decision Variables:}
+\begin{itemize}
+    \item $x_i \in \{0,1\}$: 1 if Sentinel $i$ is selected for outreach
+    \item $y_j \in \{0,1\}$: 1 if Talent $j$ is covered (discovered) through selected Sentinels
+\end{itemize}
+
+\noindent\textbf{Objective:}
+\[
+\text{Maximize } \sum_{j \in J} w_j y_j
+\]
+
+\noindent\textbf{Constraints:}
+\begin{enumerate}
+    \item Talent $j$ can only be covered if at least one selected Sentinel knows them:
+    \[
+    y_j \le \sum_{i \in I} a_{ij} x_i \quad \forall j \in J
+    \]
+    \item At most $K$ Sentinels may be selected:
+    \[
+    \sum_{i \in I} x_i \le K
+    \]
+    \item Binary constraints: $x_i, y_j \in \{0,1\}$
+\end{enumerate}
+
+This BIP formulation uses Branch and Bound/Cut and explicitly solves the redundancy problem because the objective counts $y_j$ once regardless of how many Sentinels know that person.
+
+\section{The ``Maintenance'' Problem (Relationship Decay)}
+
+Professional relationships require active maintenance. A contact valuable two years ago may no longer be accessible if relationship has gone dormant. The optimization challenge is determining which relationships to prioritize for re-engagement, given limited time.
+
+\subsection*{IEOR 240 Concept}
+We model this as a Knapsack Problem where the value of reconnecting with each contact depends on staleness, talent quality, and network centrality (degree).
+
+\subsection*{Our Formulation}
+
+\noindent\textbf{Parameters:}
+\begin{itemize}
+    \item $t_i$: Days since last contact with person $i$
+    \item $w_i$: Talent score (mean trust rating received) for person $i$
+    \item $d_i$: Degree of person $i$ (number of connections)
+    \item $c_i$: Cost (time in minutes) to reconnect with person $i$
+    \item $T$: Total time budget available
+\end{itemize}
+
+\noindent\textbf{Value Function:}
+\[
+v_i = \log(t_i + 1) \cdot w_i \cdot \sqrt{d_i}
+\]
+The logarithm provides diminishing urgency with staleness; the square root on degree prevents over-weighting high-degree nodes.
+
+\noindent\textbf{Optimization Model:}
+\begin{align*}
+\text{Maximize} \quad & \sum_{i} v_i \, x_i \\
+\text{Subject to} \quad & \sum_{i} c_i x_i \le T \\
+& x_i \in \{0,1\}
+\end{align*}
+
+\section{New Method: Submodular Optimization (Greedy Algorithm)}
+
+To satisfy the requirement of using a method not covered in class, we implement a greedy algorithm based on submodular optimization theory, comparing it against the exact Gurobi IP solution.
+
+\subsection*{Motivation}
+The Maximum Coverage problem is NP-Hard. While Gurobi solves it optimally, this may become prohibitive for large networks. We implement an efficient approximation with provable guarantees.
+
+\subsection*{The Greedy Approach}
+At each iteration, select the Sentinel who adds the most new, unique weight to the covered talent pool. Repeat until $K$ Sentinels are selected.
+
+\subsection*{Theoretical Guarantee}
+The coverage function is submodular, meaning it exhibits diminishing returns. The theorem by Nemhauser, Wolsey, and Fisher (1978) proves the greedy algorithm guarantees a solution within $(1 - 1/e)$, or about 63\%, of optimal for submodular maximization subject to cardinality constraints.
+
+\subsection*{Comparison Metrics}
+We compare the greedy algorithm against the optimal Gurobi IP solution on:
+\begin{itemize}
+    \item Total talent weight covered by selected Sentinels
+    \item Runtime comparison across varying problem sizes
+    \item Empirical ratio of greedy solution to optimal solution
+\end{itemize}
+
+\section{Data and Computational Approach}
+
+We use a real-world social network dataset from the Stanford Large Network Dataset Collection (SNAP) to validate our optimization models.
+
+\subsection*{Dataset: Bitcoin Alpha Trust Network}
+We use the Bitcoin Alpha weighted signed directed network\footnote{S. Kumar et al., IEEE ICDM 2016; ACM WSDM 2018. Available at \texttt{snap.stanford.edu/data/soc-sign-bitcoin-alpha.html}.}, capturing trust relationships between Bitcoin Alpha OTC platform users. Members rate each other on a scale of $-10$ (total distrust) to $+10$ (total trust). The dataset contains 3,783 nodes and 24,186 edges, with 93\% positive ratings. Each edge includes a trust rating and Unix timestamp.
+
+\subsection*{Data Adaptation: Mapping to the VC Talent Map}
+The Bitcoin Alpha trust network provides a compelling analog to a VC talent map. We interpret the data as follows:
+\begin{itemize}
+    \item Each trader (node) represents a professional contact, and rating another trader mirrors vouching for a peer.
+    \item The signed ratings $[-10, +10]$ represent endorsement strength.
+    \item Talent scores ($w_j$) are computed as the mean trust rating received, capturing aggregate reputation.
+    \item We convert the graph to undirected since professional relationships are mutual.
+    \item A relationship between $i$ and $j$ means Sentinel $i$ knows Talent $j$ (coverage relationship $a_{ij}$).
+    \item Real timestamps enable meaningful analysis of relationship decay.
+\end{itemize}
+
+\subsection*{Synthetic Contact Enrichment}
+The Bitcoin Alpha dataset contains only anonymous node IDs with no personal information. To create a realistic demo that resembles an actual VC talent map with contact details, we enriched the graph with synthetic person data from \texttt{people-10000.csv}\footnote{Available at \texttt{datablist.com/learn/csv/download-sample-csv-files}.}. Each node ID in the graph is mapped to the corresponding index in the people CSV, attaching fields including name, email, phone, and job title. This enrichment is purely for demonstration purposes and does not affect the optimization results, which depend only on graph structure and trust ratings.
+
+\subsection*{Visualization Subgraph}
+The complete graph (3,783 nodes, 14,124 edges) is too large for browser rendering. We select a subgraph of 500-600 nodes: all $K$ Sentinel nodes, all Maintenance-selected nodes, top 100 talent nodes, and up to 10 neighbors of each important node.
+
+\section{Results}
+
+We ran our optimization pipeline on the full Bitcoin Alpha network (3,783 nodes, 14,124 edges) with $K=10$ Sentinels and a maintenance budget of $T=2800$ minutes.
+
+\subsection*{Sentinel Problem Results}
+
+\begin{center}
+\begin{tabular}{lccc}
+\hline
+\textbf{Method} & \textbf{Coverage} & \textbf{Runtime (s)} & \textbf{\% of Optimal} \\
+\hline
+IP (Optimal) & 2417.56 & 0.1499 & 100.0\% \\
+Greedy & 2181.27 & 0.031 & 90.2\% \\
+Naive (Top Degree) & 1569.46 & 0.0032 & 64.9\% \\
+\hline
+\end{tabular}
+\end{center}
+
+The IP formulation achieves 54.0\% higher coverage than the naive baseline, confirming our hypothesis that simply targeting high-degree nodes leads to significant redundancy. The greedy algorithm achieves 90.2\% of optimal coverage while running 4x faster than the IP solver, well above the theoretical 63\% guarantee. Both optimization approaches substantially outperform the naive strategy.
+
+\subsection*{Maintenance Problem Results}
+
+\begin{center}
+\begin{tabular}{lc}
+\hline
+\textbf{Metric} & \textbf{Value} \\
+\hline
+Time Budget & 2800 minutes \\
+Relationships Selected & 97 \\
+Total Maintenance Value & 9710.13 \\
+Average Dormancy & 924 days \\
+\hline
+\end{tabular}
+\end{center}
+
+The optimization selected 97 high-priority relationships for re-engagement. The average dormancy of 924 days (over 2.5 years) shows the model prioritizes relationships that have been neglected longest while still providing high network value.
+
+\end{document}

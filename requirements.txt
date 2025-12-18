@@ -1,0 +1,5 @@
+networkx
+pandas
+numpy
+scipy
+gurobipy==12.0.0

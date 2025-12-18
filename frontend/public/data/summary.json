@@ -1,0 +1,26 @@
+{
+  "dataset": {
+    "name": "Bitcoin Alpha Trust Network",
+    "nodes": 3783,
+    "edges": 14124
+  },
+  "sentinel_problem": {
+    "budget_k": 10,
+    "ip_coverage": 2417.56,
+    "ip_runtime_sec": 0.1499,
+    "greedy_coverage": 2181.27,
+    "greedy_runtime_sec": 0.031,
+    "naive_coverage": 1569.46,
+    "naive_runtime_sec": 0.0032,
+    "greedy_vs_optimal_pct": 90.2,
+    "naive_vs_optimal_pct": 64.9,
+    "ip_improvement_over_naive_pct": 54.0,
+    "greedy_speedup_factor": 4.8
+  },
+  "maintenance_problem": {
+    "budget_t": 2800,
+    "num_selected": 97,
+    "total_value": 9710.13,
+    "avg_days_dormant": 924.0
+  }
+}

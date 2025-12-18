@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "val": 1.9045226130653266,
+    "degree": 511,
+    "metadata": {
+      "name": "Sara Mcguire",
+      "email": "tsharp@example.net",
+      "phone": "(971)643-6089x9160",
+      "job": "Editor, commissioning"
+    }
+  },
+  {
+    "id": 15,
+    "val": 2.024390243902439,
+    "degree": 213,
+    "metadata": {
+      "name": "Clayton Erickson",
+      "email": "nterry@example.net",
+      "phone": "990-374-0521x33156",
+      "job": "Paediatric nurse"
+    }
+  },
+  {
+    "id": 10,
+    "val": 1.7560975609756098,
+    "degree": 181,
+    "metadata": {
+      "name": "Pedro Cordova",
+      "email": "leslie08@example.com",
+      "phone": "(389)824-3204x8287",
+      "job": "Phytotherapist"
+    }
+  },
+  {
+    "id": 4,
+    "val": 2.925373134328358,
+    "degree": 221,
+    "metadata": {
+      "name": "Kristine Mccann",
+      "email": "lindsay55@example.com",
+      "phone": "+1-607-333-9911x59088",
+      "job": "Multimedia specialist"
+    }
+  },
+  {
+    "id": 8,
+    "val": 2.574626865671642,
+    "degree": 279,
+    "metadata": {
+      "name": "Nicholas Branch",
+      "email": "greerjimmy@example.net",
+      "phone": "+1-667-666-5867",
+      "job": "Fisheries officer"
+    }
+  },
+  {
+    "id": 7,
+    "val": 1.8974358974358974,
+    "degree": 234,
+    "metadata": {
+      "name": "Collin Allison",
+      "email": "yvaughn@example.net",
+      "phone": "(314)591-7413",
+      "job": "Administrator"
+    }
+  },
+  {
+    "id": 13,
+    "val": 2.176470588235294,
+    "degree": 142,
+    "metadata": {
+      "name": "Bradley Velazquez",
+      "email": "joycejay@example.net",
+      "phone": "(831)049-2030",
+      "job": "Airline pilot"
+    }
+  },
+  {
+    "id": 3,
+    "val": 2.4302788844621515,
+    "degree": 263,
+    "metadata": {
+      "name": "Gwendolyn Sheppard",
+      "email": "mercadojonathan@example.com",
+      "phone": "9017807728",
+      "job": "Industrial buyer"
+    }
+  },
+  {
+    "id": 7564,
+    "val": -0.31521739130434784,
+    "degree": 96,
+    "metadata": {
+      "name": "Kelly Juarez",
+      "email": "guzmanandrew@example.org",
+      "phone": "001-559-247-6671",
+      "job": "Legal secretary"
+    }
+  },
+  {
+    "id": 129,
+    "val": 3.411764705882353,
+    "degree": 94,
+    "metadata": {
+      "name": "Scott Dawson",
+      "email": "ynelson@example.com",
+      "phone": "527-726-5973x662",
+      "job": "Engineering geologist"
+    }
+  }
+]

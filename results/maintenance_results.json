@@ -1,0 +1,784 @@
+{
+  "selected_nodes": [
+    {
+      "id": 1,
+      "weight": 29,
+      "value": 256.188981524709,
+      "days_dormant": 383,
+      "degree": 511,
+      "talent_score": 1.9045226130653266
+    },
+    {
+      "id": 430,
+      "weight": 18,
+      "value": 62.029478963491144,
+      "days_dormant": 684,
+      "degree": 9,
+      "talent_score": 3.1666666666666665
+    },
+    {
+      "id": 160,
+      "weight": 32,
+      "value": 107.73086902625516,
+      "days_dormant": 680,
+      "degree": 10,
+      "talent_score": 5.222222222222222
+    },
+    {
+      "id": 377,
+      "weight": 28,
+      "value": 67.00440870285468,
+      "days_dormant": 441,
+      "degree": 4,
+      "talent_score": 5.5
+    },
+    {
+      "id": 20,
+      "weight": 68,
+      "value": 195.69946817125503,
+      "days_dormant": 400,
+      "degree": 66,
+      "talent_score": 4.018867924528302
+    },
+    {
+      "id": 11,
+      "weight": 50,
+      "value": 129.12531403012562,
+      "days_dormant": 404,
+      "degree": 238,
+      "talent_score": 1.3940886699507389
+    },
+    {
+      "id": 152,
+      "weight": 28,
+      "value": 76.53997590414538,
+      "days_dormant": 1058,
+      "degree": 34,
+      "talent_score": 1.8846153846153846
+    },
+    {
+      "id": 2,
+      "weight": 26,
+      "value": 310.9241080961967,
+      "days_dormant": 272,
+      "degree": 239,
+      "talent_score": 3.5853658536585367
+    },
+    {
+      "id": 44,
+      "weight": 27,
+      "value": 109.90672972535991,
+      "days_dormant": 403,
+      "degree": 55,
+      "talent_score": 2.4693877551020407
+    },
+    {
+      "id": 10,
+      "weight": 59,
+      "value": 141.6125916801552,
+      "days_dormant": 400,
+      "degree": 181,
+      "talent_score": 1.7560975609756098
+    },
+    {
+      "id": 17,
+      "weight": 39,
+      "value": 147.8637219957074,
+      "days_dormant": 900,
+      "degree": 117,
+      "talent_score": 2.009259259259259
+    },
+    {
+      "id": 38,
+      "weight": 23,
+      "value": 143.66613934863904,
+      "days_dormant": 605,
+      "degree": 81,
+      "talent_score": 2.4915254237288136
+    },
+    {
+      "id": 71,
+      "weight": 43,
+      "value": 131.09693750458382,
+      "days_dormant": 1082,
+      "degree": 22,
+      "talent_score": 4.0
+    },
+    {
+      "id": 123,
+      "weight": 19,
+      "value": 70.78330597760181,
+      "days_dormant": 541,
+      "degree": 37,
+      "talent_score": 1.8484848484848484
+    },
+    {
+      "id": 9,
+      "weight": 32,
+      "value": 197.11458890297712,
+      "days_dormant": 599,
+      "degree": 163,
+      "talent_score": 2.4135338345864663
+    },
+    {
+      "id": 4,
+      "weight": 80,
+      "value": 284.8986102010817,
+      "days_dormant": 699,
+      "degree": 221,
+      "talent_score": 2.925373134328358
+    },
+    {
+      "id": 250,
+      "weight": 21,
+      "value": 50.84522404718747,
+      "days_dormant": 386,
+      "degree": 16,
+      "talent_score": 2.1333333333333333
+    },
+    {
+      "id": 174,
+      "weight": 25,
+      "value": 59.355365156430956,
+      "days_dormant": 541,
+      "degree": 36,
+      "talent_score": 1.5714285714285714
+    },
+    {
+      "id": 68,
+      "weight": 43,
+      "value": 109.67034474901517,
+      "days_dormant": 469,
+      "degree": 45,
+      "talent_score": 2.657142857142857
+    },
+    {
+      "id": 116,
+      "weight": 23,
+      "value": 63.50330412946704,
+      "days_dormant": 660,
+      "degree": 50,
+      "talent_score": 1.3829787234042554
+    },
+    {
+      "id": 276,
+      "weight": 21,
+      "value": 77.57662764295878,
+      "days_dormant": 935,
+      "degree": 7,
+      "talent_score": 4.285714285714286
+    },
+    {
+      "id": 90,
+      "weight": 21,
+      "value": 74.67985089179828,
+      "days_dormant": 1052,
+      "degree": 56,
+      "talent_score": 1.4339622641509433
+    },
+    {
+      "id": 231,
+      "weight": 25,
+      "value": 65.00040602028061,
+      "days_dormant": 1642,
+      "degree": 15,
+      "talent_score": 2.2666666666666666
+    },
+    {
+      "id": 76,
+      "weight": 23,
+      "value": 113.66253415900188,
+      "days_dormant": 1171,
+      "degree": 33,
+      "talent_score": 2.8
+    },
+    {
+      "id": 300,
+      "weight": 20,
+      "value": 67.55470903816764,
+      "days_dormant": 1564,
+      "degree": 14,
+      "talent_score": 2.4545454545454546
+    },
+    {
+      "id": 159,
+      "weight": 34,
+      "value": 82.21057958888875,
+      "days_dormant": 1206,
+      "degree": 35,
+      "talent_score": 1.9583333333333333
+    },
+    {
+      "id": 66,
+      "weight": 45,
+      "value": 106.3642823806911,
+      "days_dormant": 1103,
+      "degree": 47,
+      "talent_score": 2.2142857142857144
+    },
+    {
+      "id": 60,
+      "weight": 35,
+      "value": 126.65274546334649,
+      "days_dormant": 599,
+      "degree": 32,
+      "talent_score": 3.5
+    },
+    {
+      "id": 353,
+      "weight": 18,
+      "value": 44.94483769862569,
+      "days_dormant": 1190,
+      "degree": 22,
+      "talent_score": 1.3529411764705883
+    },
+    {
+      "id": 51,
+      "weight": 37,
+      "value": 98.68076320087624,
+      "days_dormant": 714,
+      "degree": 85,
+      "talent_score": 1.6285714285714286
+    },
+    {
+      "id": 54,
+      "weight": 49,
+      "value": 126.59755266274722,
+      "days_dormant": 525,
+      "degree": 47,
+      "talent_score": 2.9473684210526314
+    },
+    {
+      "id": 47,
+      "weight": 28,
+      "value": 105.93220898346725,
+      "days_dormant": 242,
+      "degree": 50,
+      "talent_score": 2.727272727272727
+    },
+    {
+      "id": 23,
+      "weight": 63,
+      "value": 199.65360895476283,
+      "days_dormant": 1627,
+      "degree": 74,
+      "talent_score": 3.1384615384615384
+    },
+    {
+      "id": 74,
+      "weight": 19,
+      "value": 111.78016486825241,
+      "days_dormant": 524,
+      "degree": 26,
+      "talent_score": 3.5
+    },
+    {
+      "id": 8,
+      "weight": 40,
+      "value": 236.22771834488435,
+      "days_dormant": 242,
+      "degree": 279,
+      "talent_score": 2.574626865671642
+    },
+    {
+      "id": 272,
+      "weight": 18,
+      "value": 45.29328613543669,
+      "days_dormant": 1013,
+      "degree": 55,
+      "talent_score": 0.8823529411764706
+    },
+    {
+      "id": 24,
+      "weight": 23,
+      "value": 146.0148671287652,
+      "days_dormant": 417,
+      "degree": 113,
+      "talent_score": 2.2758620689655173
+    },
+    {
+      "id": 7,
+      "weight": 50,
+      "value": 173.094011604133,
+      "days_dormant": 388,
+      "degree": 234,
+      "talent_score": 1.8974358974358974
+    },
+    {
+      "id": 189,
+      "weight": 18,
+      "value": 66.05234538117952,
+      "days_dormant": 628,
+      "degree": 16,
+      "talent_score": 2.5625
+    },
+    {
+      "id": 45,
+      "weight": 28,
+      "value": 116.4605181161427,
+      "days_dormant": 1000,
+      "degree": 82,
+      "talent_score": 1.8615384615384616
+    },
+    {
+      "id": 236,
+      "weight": 20,
+      "value": 62.41718893903244,
+      "days_dormant": 1325,
+      "degree": 20,
+      "talent_score": 1.9411764705882353
+    },
+    {
+      "id": 106,
+      "weight": 15,
+      "value": 70.78972264961729,
+      "days_dormant": 987,
+      "degree": 51,
+      "talent_score": 1.4375
+    },
+    {
+      "id": 173,
+      "weight": 23,
+      "value": 55.8512798051347,
+      "days_dormant": 398,
+      "degree": 46,
+      "talent_score": 1.375
+    },
+    {
+      "id": 5,
+      "weight": 94,
+      "value": 222.75363112867623,
+      "days_dormant": 423,
+      "degree": 190,
+      "talent_score": 2.671232876712329
+    },
+    {
+      "id": 170,
+      "weight": 30,
+      "value": 70.29874222678947,
+      "days_dormant": 560,
+      "degree": 23,
+      "talent_score": 2.3157894736842106
+    },
+    {
+      "id": 70,
+      "weight": 31,
+      "value": 84.62771715747988,
+      "days_dormant": 592,
+      "degree": 59,
+      "talent_score": 1.7254901960784315
+    },
+    {
+      "id": 449,
+      "weight": 15,
+      "value": 46.34069182657762,
+      "days_dormant": 1688,
+      "degree": 12,
+      "talent_score": 1.8
+    },
+    {
+      "id": 263,
+      "weight": 33,
+      "value": 76.41735615888436,
+      "days_dormant": 1689,
+      "degree": 11,
+      "talent_score": 3.1
+    },
+    {
+      "id": 562,
+      "weight": 18,
+      "value": 44.2831234001371,
+      "days_dormant": 1303,
+      "degree": 7,
+      "talent_score": 2.3333333333333335
+    },
+    {
+      "id": 14,
+      "weight": 46,
+      "value": 180.57992055404154,
+      "days_dormant": 887,
+      "degree": 104,
+      "talent_score": 2.6082474226804124
+    },
+    {
+      "id": 3,
+      "weight": 39,
+      "value": 250.51009549521592,
+      "days_dormant": 575,
+      "degree": 263,
+      "talent_score": 2.4302788844621515
+    },
+    {
+      "id": 6,
+      "weight": 74,
+      "value": 208.97209621674344,
+      "days_dormant": 385,
+      "degree": 158,
+      "talent_score": 2.79136690647482
+    },
+    {
+      "id": 26,
+      "weight": 30,
+      "value": 108.40553058407411,
+      "days_dormant": 409,
+      "degree": 166,
+      "talent_score": 1.3985507246376812
+    },
+    {
+      "id": 100,
+      "weight": 20,
+      "value": 93.28514924004708,
+      "days_dormant": 867,
+      "degree": 33,
+      "talent_score": 2.4
+    },
+    {
+      "id": 227,
+      "weight": 17,
+      "value": 71.6929816416014,
+      "days_dormant": 795,
+      "degree": 20,
+      "talent_score": 2.4
+    },
+    {
+      "id": 33,
+      "weight": 36,
+      "value": 100.82496272937794,
+      "days_dormant": 420,
+      "degree": 139,
+      "talent_score": 1.4152542372881356
+    },
+    {
+      "id": 131,
+      "weight": 18,
+      "value": 71.32087203051681,
+      "days_dormant": 790,
+      "degree": 36,
+      "talent_score": 1.78125
+    },
+    {
+      "id": 626,
+      "weight": 17,
+      "value": 41.91779324661835,
+      "days_dormant": 1352,
+      "degree": 5,
+      "talent_score": 2.6
+    },
+    {
+      "id": 82,
+      "weight": 30,
+      "value": 74.74595386377466,
+      "days_dormant": 394,
+      "degree": 45,
+      "talent_score": 1.8636363636363635
+    },
+    {
+      "id": 728,
+      "weight": 15,
+      "value": 33.72933318193255,
+      "days_dormant": 949,
+      "degree": 5,
+      "talent_score": 2.2
+    },
+    {
+      "id": 497,
+      "weight": 17,
+      "value": 39.38157495577467,
+      "days_dormant": 458,
+      "degree": 7,
+      "talent_score": 2.4285714285714284
+    },
+    {
+      "id": 253,
+      "weight": 20,
+      "value": 48.81935852621488,
+      "days_dormant": 652,
+      "degree": 20,
+      "talent_score": 1.6842105263157894
+    },
+    {
+      "id": 500,
+      "weight": 18,
+      "value": 45.53950563258563,
+      "days_dormant": 1145,
+      "degree": 8,
+      "talent_score": 2.2857142857142856
+    },
+    {
+      "id": 513,
+      "weight": 19,
+      "value": 54.09202316503879,
+      "days_dormant": 1301,
+      "degree": 8,
+      "talent_score": 2.6666666666666665
+    },
+    {
+      "id": 132,
+      "weight": 18,
+      "value": 79.69664680230534,
+      "days_dormant": 1012,
+      "degree": 32,
+      "talent_score": 2.0357142857142856
+    },
+    {
+      "id": 977,
+      "weight": 22,
+      "value": 55.451774444795625,
+      "days_dormant": 1023,
+      "degree": 1,
+      "talent_score": 8.0
+    },
+    {
+      "id": 226,
+      "weight": 16,
+      "value": 47.78449466361526,
+      "days_dormant": 1186,
+      "degree": 36,
+      "talent_score": 1.125
+    },
+    {
+      "id": 127,
+      "weight": 30,
+      "value": 77.4275681844791,
+      "days_dormant": 473,
+      "degree": 24,
+      "talent_score": 2.5652173913043477
+    },
+    {
+      "id": 180,
+      "weight": 28,
+      "value": 76.74548675106716,
+      "days_dormant": 189,
+      "degree": 14,
+      "talent_score": 3.909090909090909
+    },
+    {
+      "id": 55,
+      "weight": 31,
+      "value": 129.75249690083746,
+      "days_dormant": 524,
+      "degree": 41,
+      "talent_score": 3.235294117647059
+    },
+    {
+      "id": 243,
+      "weight": 23,
+      "value": 117.24256818264686,
+      "days_dormant": 823,
+      "degree": 7,
+      "talent_score": 6.6
+    },
+    {
+      "id": 220,
+      "weight": 26,
+      "value": 69.6520830678203,
+      "days_dormant": 525,
+      "degree": 13,
+      "talent_score": 3.0833333333333335
+    },
+    {
+      "id": 254,
+      "weight": 22,
+      "value": 92.91935251488383,
+      "days_dormant": 1683,
+      "degree": 22,
+      "talent_score": 2.6666666666666665
+    },
+    {
+      "id": 579,
+      "weight": 15,
+      "value": 46.53841293364253,
+      "days_dormant": 1690,
+      "degree": 5,
+      "talent_score": 2.8
+    },
+    {
+      "id": 28,
+      "weight": 56,
+      "value": 153.10806426758646,
+      "days_dormant": 628,
+      "degree": 55,
+      "talent_score": 3.2037037037037037
+    },
+    {
+      "id": 210,
+      "weight": 30,
+      "value": 80.88337321058631,
+      "days_dormant": 1592,
+      "degree": 12,
+      "talent_score": 3.1666666666666665
+    },
+    {
+      "id": 342,
+      "weight": 17,
+      "value": 53.809867218869975,
+      "days_dormant": 833,
+      "degree": 9,
+      "talent_score": 2.6666666666666665
+    },
+    {
+      "id": 129,
+      "weight": 52,
+      "value": 233.94359494615733,
+      "days_dormant": 1178,
+      "degree": 94,
+      "talent_score": 3.411764705882353
+    },
+    {
+      "id": 1422,
+      "weight": 17,
+      "value": 42.13743270878938,
+      "days_dormant": 1717,
+      "degree": 2,
+      "talent_score": 4.0
+    },
+    {
+      "id": 240,
+      "weight": 19,
+      "value": 81.53376368439726,
+      "days_dormant": 1655,
+      "degree": 9,
+      "talent_score": 3.6666666666666665
+    },
+    {
+      "id": 662,
+      "weight": 32,
+      "value": 77.41745421723662,
+      "days_dormant": 1718,
+      "degree": 3,
+      "talent_score": 6.0
+    },
+    {
+      "id": 169,
+      "weight": 27,
+      "value": 77.78321845719553,
+      "days_dormant": 1676,
+      "degree": 25,
+      "talent_score": 2.0952380952380953
+    },
+    {
+      "id": 633,
+      "weight": 25,
+      "value": 61.59058652696995,
+      "days_dormant": 1219,
+      "degree": 4,
+      "talent_score": 4.333333333333333
+    },
+    {
+      "id": 385,
+      "weight": 17,
+      "value": 54.218269778485094,
+      "days_dormant": 1483,
+      "degree": 8,
+      "talent_score": 2.625
+    },
+    {
+      "id": 339,
+      "weight": 18,
+      "value": 51.477340776099595,
+      "days_dormant": 1685,
+      "degree": 12,
+      "talent_score": 2.0
+    },
+    {
+      "id": 581,
+      "weight": 17,
+      "value": 59.78386642049677,
+      "days_dormant": 1629,
+      "degree": 3,
+      "talent_score": 4.666666666666667
+    },
+    {
+      "id": 388,
+      "weight": 15,
+      "value": 94.80709778175442,
+      "days_dormant": 872,
+      "degree": 4,
+      "talent_score": 7.0
+    },
+    {
+      "id": 584,
+      "weight": 19,
+      "value": 51.7096316495973,
+      "days_dormant": 1614,
+      "degree": 4,
+      "talent_score": 3.5
+    },
+    {
+      "id": 828,
+      "weight": 22,
+      "value": 117.29336448296375,
+      "days_dormant": 872,
+      "degree": 3,
+      "talent_score": 10.0
+    },
+    {
+      "id": 414,
+      "weight": 23,
+      "value": 95.7696310658495,
+      "days_dormant": 872,
+      "degree": 2,
+      "talent_score": 10.0
+    },
+    {
+      "id": 782,
+      "weight": 15,
+      "value": 74.36027816351849,
+      "days_dormant": 1695,
+      "degree": 1,
+      "talent_score": 10.0
+    },
+    {
+      "id": 776,
+      "weight": 30,
+      "value": 74.48333860897476,
+      "days_dormant": 1716,
+      "degree": 1,
+      "talent_score": 10.0
+    },
+    {
+      "id": 834,
+      "weight": 20,
+      "value": 62.383246250395075,
+      "days_dormant": 511,
+      "degree": 1,
+      "talent_score": 10.0
+    },
+    {
+      "id": 948,
+      "weight": 15,
+      "value": 58.365880581994254,
+      "days_dormant": 1473,
+      "degree": 1,
+      "talent_score": 8.0
+    },
+    {
+      "id": 790,
+      "weight": 16,
+      "value": 74.11556287811163,
+      "days_dormant": 1654,
+      "degree": 1,
+      "talent_score": 10.0
+    },
+    {
+      "id": 978,
+      "weight": 17,
+      "value": 54.92712859906751,
+      "days_dormant": 958,
+      "degree": 1,
+      "talent_score": 8.0
+    },
+    {
+      "id": 795,
+      "weight": 27,
+      "value": 73.42779189331846,
+      "days_dormant": 1544,
+      "degree": 1,
+      "talent_score": 10.0
+    }
+  ],
+  "total_value": 9710.13035907204,
+  "budget_used": 2800,
+  "num_selected": 97,
+  "avg_days_dormant": 924.2783505154639
+}
